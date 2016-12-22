@@ -1,0 +1,42 @@
+﻿Build started 23/10/2015 19:18:52.
+     1>Project "F:\Projects\Exemplos\Face Detection - 775\Face Detection.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\OpenCV2.4\build\include\opencv2 /IC:\OpenCV2.4\build\include\opencv /IC:\OpenCV2.4\include\opencv2 /IC:\OpenCV2.4\include\opencv /IC:\OpenCV2.4\include /IC:\OpenCV2.4\build\include /IC:\opencv249\build\x64\vc12\lib /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Face Detection.cpp"
+         Face Detection.cpp
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(18): error C2143: syntax error : missing ';' before '*'
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(20): error C2065: 'IplImage' : undeclared identifier
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(20): error C2065: 'newframe' : undeclared identifier
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(20): error C2182: 'detectFaces' : illegal use of type 'void'
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(32): error C3861: 'cvLoad': identifier not found
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(39): error C3861: 'cvLoad': identifier not found
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(44): error C3861: 'cvCreateMemStorage': identifier not found
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(49): error C2065: 'IplImage' : undeclared identifier
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(49): error C2065: 'inImage' : undeclared identifier
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(49): error C3861: 'cvLoadImage': identifier not found
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(53): error C2065: 'inImage' : undeclared identifier
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(66): error C2065: 'inImage' : undeclared identifier
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(67): error C2065: 'inImage' : undeclared identifier
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(67): error C3861: 'cvShowImage': identifier not found
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(68): error C2065: 'inImage' : undeclared identifier
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(68): error C3861: 'cvReleaseImage': identifier not found
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(69): error C3861: 'cvWaitKey': identifier not found
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(80): error C2065: 'inImage' : undeclared identifier
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(80): error C2065: 'CV_LOAD_IMAGE_UNCHANGED' : undeclared identifier
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(80): error C3861: 'cvLoadImage': identifier not found
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(83): error C2065: 'inImage' : undeclared identifier
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(85): error C2065: 'inImage' : undeclared identifier
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(85): error C3861: 'cvShowImage': identifier not found
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(86): error C2065: 'inImage' : undeclared identifier
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(86): error C3861: 'cvReleaseImage': identifier not found
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(88): error C3861: 'cvWaitKey': identifier not found
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(95): error C3861: 'cvReleaseHaarClassifierCascade': identifier not found
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(96): error C3861: 'cvReleaseMemStorage': identifier not found
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(103): error C2065: 'IplImage' : undeclared identifier
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(103): error C2065: 'newframe' : undeclared identifier
+     1>f:\projects\exemplos\face detection - 775\face detection.cpp(104): error C2448: 'detectFaces' : function-style initializer appears to be a function definition
+     1>Done Building Project "F:\Projects\Exemplos\Face Detection - 775\Face Detection.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.36
